@@ -1,4 +1,4 @@
-class MyThread extends Thread
+class MyThread1 extends Thread
 {
     public void run()
     {
@@ -11,11 +11,11 @@ class MyThread extends Thread
     }
 }
 
-public class MultiThreading
+public class MultiThreadingUsingThread
 {
     public static void main(String[] args)
     {
-        MyThread test = new MyThread();
+        MyThread1 test = new MyThread1();
         test.start();
         int i = 1;
         while (i<100)

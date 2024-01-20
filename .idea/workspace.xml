@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading.java" afterDir="false" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="Multithreading">
+      <change afterPath="$PROJECT_DIR$/src/MultiThreadingUsingRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreadingUsingThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   "keyToString": {
     "Application.Main.executor": "Debug",
     "Application.MultiThreading.executor": "Run",
+    "Application.MultiThreadingUsingRunnable.executor": "Run",
     "Application.Unit1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,8 +68,17 @@
       <option name="presentableId" value="Default" />
       <updated>1705733259544</updated>
       <workItem from="1705733260572" duration="2109000" />
-      <workItem from="1705743613735" duration="3260000" />
+      <workItem from="1705743613735" duration="4173000" />
     </task>
+    <task id="LOCAL-00001" summary="Multithreading">
+      <option name="closed" value="true" />
+      <created>1705755171665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705755171665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +94,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Multithreading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multithreading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
