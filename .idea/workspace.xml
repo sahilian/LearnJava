@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="Multithreading" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="Client Server Application">
+      <change afterPath="$PROJECT_DIR$/src/reverseecho/ReverseEcho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseEchoServerUsingSocket.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -29,26 +36,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MultiThreading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThreadingUsingRunnable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unit1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/termi/IdeaProjects/LearnJava/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Application.MultiThreading.executor": "Run",
+    "Application.MultiThreadingUsingRunnable.executor": "Run",
+    "Application.ReverseEcho.executor": "Run",
+    "Application.ReverseEchoServerUsingSocket.executor": "Run",
+    "Application.Unit1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/termi/IdeaProjects/LearnJava/src/Main.java",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,7 +79,7 @@
       <workItem from="1705733260572" duration="2109000" />
       <workItem from="1705743613735" duration="4448000" />
       <workItem from="1705758779231" duration="940000" />
-      <workItem from="1705845756448" duration="935000" />
+      <workItem from="1705845756448" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -93,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705847016135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Client Server Application">
+      <option name="closed" value="true" />
+      <created>1705847145277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705847145277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Multithreading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multithreading" />
+    <MESSAGE value="Client Server Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client Server Application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
