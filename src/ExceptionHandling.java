@@ -15,3 +15,26 @@ public class ExceptionHandling {
         }
     }
 }
+
+class ArrayException
+{
+    public static void main(String[] args)
+    {
+        try
+        {
+            int A[] = {10,0,2,6,7};
+            int r = A[0]/A[2];
+            System.out.println(r);
+            System.out.println(A[10]);
+        }
+        catch (ArithmeticException e)
+        {
+            System.out.println(e);
+        }
+        catch (ArrayIndexOutOfBoundsException ex)
+        {
+            System.out.println(ex);
+        }
+
+    }
+}
