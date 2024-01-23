@@ -1,1 +1,1 @@
-# A practice project on Java
+# Practice projecta on Java
