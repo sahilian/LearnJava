@@ -11,7 +11,7 @@ public class ExceptionHandling {
 
         catch (ArithmeticException e)
         {
-            System.out.println("Divide By Zero Exception");
+            System.out.println("Divide By Zero Exception "+e);
         }
     }
 }
