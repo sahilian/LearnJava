@@ -13,7 +13,7 @@ public class EventHandling extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        JOptionPane.showMessageDialog(null, "Hello");
+        JOptionPane.showMessageDialog(null, "Thank you for clicking!");
     }
 
     public static void main(String[] a) {
