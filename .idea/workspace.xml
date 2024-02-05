@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="Hashing" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="Hashing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,68 +52,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Addition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatServer2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Chatter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EventHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Function.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashFunction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MultiThreading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThreadingUsingRunnable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThreadingUsingThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseEcho (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseEcho.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseEchoServerUsingSocket.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unit1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/termi/IdeaProjects/LearnJava/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Addition.executor": "Run",
+    "Application.ArrayException.executor": "Run",
+    "Application.ChatClient.executor": "Run",
+    "Application.ChatServer.executor": "Run",
+    "Application.ChatServer2.executor": "Run",
+    "Application.Chatter.executor": "Run",
+    "Application.Client (1).executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.EventHandling.executor": "Run",
+    "Application.ExceptionHandling.executor": "Run",
+    "Application.Function.executor": "Run",
+    "Application.HashFunction.executor": "Run",
+    "Application.InputPractice.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MultiThreading.executor": "Run",
+    "Application.MultiThreadingUsingRunnable.executor": "Run",
+    "Application.MultiThreadingUsingThread.executor": "Run",
+    "Application.NoLayout.executor": "Run",
+    "Application.ReverseEcho (1).executor": "Run",
+    "Application.ReverseEcho.executor": "Run",
+    "Application.ReverseEchoServerUsingSocket.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Unit1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/termi/IdeaProjects/LearnJava/src/Main.java",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChatClient" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChatServer" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NoLayout">
     <configuration name="EventHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EventHandling" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputPractice" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,8 +122,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadingUsingThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreadingUsingThread" />
+    <configuration name="NoLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NoLayout" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NoLayout" />
+        <item itemvalue="Application.InputPractice" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.EventHandling" />
         <item itemvalue="Application.MultiThreadingUsingRunnable" />
-        <item itemvalue="Application.MultiThreadingUsingThread" />
-        <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ChatServer" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +183,9 @@
       <workItem from="1706797049201" duration="1108000" />
       <workItem from="1706887526114" duration="55000" />
       <workItem from="1706951004610" duration="24000" />
+      <workItem from="1707030397045" duration="1241000" />
+      <workItem from="1707111856494" duration="2349000" />
+      <workItem from="1707117548618" duration="3570000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -354,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706951017300</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Hashing">
+      <option name="closed" value="true" />
+      <created>1707030414904</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707030414904</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +403,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>10</line>
+          <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
