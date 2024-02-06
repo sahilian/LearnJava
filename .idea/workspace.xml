@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="custom exception" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="custom exception">
+      <change afterPath="$PROJECT_DIR$/src/Priority/PriorityThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +74,8 @@
     "Application.MultiThreadingUsingThread.executor": "Run",
     "Application.MyExceptionTester.executor": "Run",
     "Application.NoLayout.executor": "Run",
+    "Application.Priority.PriorityThreading.executor": "Run",
+    "Application.PriorityThreading.executor": "Run",
     "Application.ReverseEcho (1).executor": "Run",
     "Application.ReverseEcho.executor": "Run",
     "Application.ReverseEchoServerUsingSocket.executor": "Run",
@@ -101,24 +106,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyExceptionTester">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dog" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Priority.PriorityThreading">
     <configuration name="MyExceptionTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyExceptionTester" />
       <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PriorityThreading" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Priority.PriorityThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Priority.PriorityThreading" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Priority.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Priority.PriorityThreading" />
+        <item itemvalue="Application.PriorityThreading" />
         <item itemvalue="Application.MyExceptionTester" />
         <item itemvalue="Application.TryCatchThrow" />
         <item itemvalue="Application.pack2" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Dog" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +204,8 @@
       <workItem from="1707030397045" duration="1241000" />
       <workItem from="1707111856494" duration="2349000" />
       <workItem from="1707117548618" duration="4404000" />
-      <workItem from="1707196785036" duration="7093000" />
+      <workItem from="1707196785036" duration="10147000" />
+      <workItem from="1707221760951" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -403,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707207479061</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="custom exception">
+      <option name="closed" value="true" />
+      <created>1707212449561</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1707212449561</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
