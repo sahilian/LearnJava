@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="file handling">
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="character stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandling/ByteStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/ByteStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandling/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/Input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandling/Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/Output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/CharacterStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/CharacterStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +221,7 @@
       <workItem from="1707117548618" duration="4404000" />
       <workItem from="1707196785036" duration="10147000" />
       <workItem from="1707221760951" duration="2767000" />
-      <workItem from="1707231868195" duration="3260000" />
+      <workItem from="1707231868195" duration="6308000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -457,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707232986570</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="character stream">
+      <option name="closed" value="true" />
+      <created>1707236270755</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1707236270755</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,6 +493,7 @@
     <MESSAGE value="custom exception" />
     <MESSAGE value="priority threading" />
     <MESSAGE value="file handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="file handling" />
+    <MESSAGE value="character stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="character stream" />
   </component>
 </project>
