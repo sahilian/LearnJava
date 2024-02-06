@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="priority threading">
-      <change afterPath="$PROJECT_DIR$/src/FileHandling/ByteStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileHandling/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileHandling/Output.txt" afterDir="false" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="file handling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/ByteStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/ByteStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/Output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     "Application.Addition.executor": "Run",
     "Application.ArrayException.executor": "Run",
     "Application.ByteStream.executor": "Run",
+    "Application.CharacterStream.executor": "Run",
     "Application.ChatClient.executor": "Run",
     "Application.ChatServer.executor": "Run",
     "Application.ChatServer2.executor": "Run",
@@ -68,6 +69,7 @@
     "Application.Dog.executor": "Run",
     "Application.EventHandling.executor": "Run",
     "Application.ExceptionHandling.executor": "Run",
+    "Application.FileWriterReader.executor": "Run",
     "Application.Function.executor": "Run",
     "Application.HashFunction.executor": "Run",
     "Application.InputPractice.executor": "Run",
@@ -109,7 +111,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteStream">
+  <component name="RunManager" selected="Application.FileWriterReader">
     <configuration name="ByteStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileHandling.ByteStream" />
       <module name="LearnJava" />
@@ -123,9 +125,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyExceptionTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyExceptionTester" />
+    <configuration name="CharacterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileHandling.CharacterStream" />
       <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FileHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWriterReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileHandling.FileWriterReader" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FileHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,20 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchThrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TryCatchThrow" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileWriterReader" />
+        <item itemvalue="Application.CharacterStream" />
         <item itemvalue="Application.ByteStream" />
         <item itemvalue="Application.Priority.PriorityThreading" />
         <item itemvalue="Application.PriorityThreading" />
-        <item itemvalue="Application.MyExceptionTester" />
-        <item itemvalue="Application.TryCatchThrow" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +223,7 @@
       <workItem from="1707117548618" duration="4404000" />
       <workItem from="1707196785036" duration="10147000" />
       <workItem from="1707221760951" duration="2767000" />
-      <workItem from="1707231868195" duration="973000" />
+      <workItem from="1707231868195" duration="3260000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -435,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707224179556</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="file handling">
+      <option name="closed" value="true" />
+      <created>1707232986570</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707232986570</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +486,7 @@
     <MESSAGE value="package" />
     <MESSAGE value="custom exception" />
     <MESSAGE value="priority threading" />
-    <option name="LAST_COMMIT_MESSAGE" value="priority threading" />
+    <MESSAGE value="file handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="file handling" />
   </component>
 </project>
