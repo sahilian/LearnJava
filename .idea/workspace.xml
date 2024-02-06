@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="package">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling.java" afterDir="false" />
-    </list>
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="custom exception" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +193,7 @@
       <workItem from="1707030397045" duration="1241000" />
       <workItem from="1707111856494" duration="2349000" />
       <workItem from="1707117548618" duration="4404000" />
-      <workItem from="1707196785036" duration="6292000" />
+      <workItem from="1707196785036" duration="7093000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -398,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707203161516</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="custom exception">
+      <option name="closed" value="true" />
+      <created>1707207479061</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1707207479061</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +430,7 @@
     <MESSAGE value="Hashing" />
     <MESSAGE value="static and nolayout" />
     <MESSAGE value="package" />
-    <option name="LAST_COMMIT_MESSAGE" value="package" />
+    <MESSAGE value="custom exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom exception" />
   </component>
 </project>
