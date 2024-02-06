@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="static and nolayout">
-      <change afterPath="$PROJECT_DIR$/src/p1/pack1.java" afterDir="false" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +72,15 @@
     "Application.MultiThreading.executor": "Run",
     "Application.MultiThreadingUsingRunnable.executor": "Run",
     "Application.MultiThreadingUsingThread.executor": "Run",
+    "Application.MyExceptionTester.executor": "Run",
     "Application.NoLayout.executor": "Run",
     "Application.ReverseEcho (1).executor": "Run",
     "Application.ReverseEcho.executor": "Run",
     "Application.ReverseEchoServerUsingSocket.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TryCatchThrow.executor": "Run",
     "Application.Unit1.executor": "Run",
+    "Application.pack2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -102,16 +104,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pack2">
+  <component name="RunManager" selected="Application.MyExceptionTester">
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dog" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputPractice" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,8 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NoLayout" />
+    <configuration name="MyExceptionTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyExceptionTester" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryCatchThrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryCatchThrow" />
       <module name="LearnJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyExceptionTester" />
+        <item itemvalue="Application.TryCatchThrow" />
         <item itemvalue="Application.pack2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.NoLayout" />
-        <item itemvalue="Application.InputPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,7 @@
       <workItem from="1707030397045" duration="1241000" />
       <workItem from="1707111856494" duration="2349000" />
       <workItem from="1707117548618" duration="4404000" />
-      <workItem from="1707196785036" duration="3909000" />
+      <workItem from="1707196785036" duration="6292000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -388,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707125701776</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="package">
+      <option name="closed" value="true" />
+      <created>1707203161516</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707203161516</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +424,7 @@
     <MESSAGE value="Event Listener" />
     <MESSAGE value="Hashing" />
     <MESSAGE value="static and nolayout" />
-    <option name="LAST_COMMIT_MESSAGE" value="static and nolayout" />
+    <MESSAGE value="package" />
+    <option name="LAST_COMMIT_MESSAGE" value="package" />
   </component>
 </project>
