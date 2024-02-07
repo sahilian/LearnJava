@@ -1,10 +1,9 @@
 package VCSeperator;
 
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-public class Seperator {
+public class Separator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your sentence: ");
