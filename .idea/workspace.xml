@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="character stream">
-      <change afterPath="$PROJECT_DIR$/src/VCSeperator/Consonants.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VCSeperator/Seperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VCSeperator/Vowels.txt" afterDir="false" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="vowel consonants separator">
+      <change afterPath="$PROJECT_DIR$/src/LayoutManagement/LayoutExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/CharacterStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/CharacterStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,8 @@
   "keyToString": {
     "Application.Addition.executor": "Run",
     "Application.ArrayException.executor": "Run",
+    "Application.BorderLayoutExample.executor": "Run",
+    "Application.BorderLayoutWithGridExample.executor": "Run",
     "Application.ByteStream.executor": "Run",
     "Application.CharacterStream.executor": "Run",
     "Application.ChatClient.executor": "Run",
@@ -70,7 +71,10 @@
     "Application.EventHandling.executor": "Run",
     "Application.ExceptionHandling.executor": "Run",
     "Application.FileWriterReader.executor": "Run",
+    "Application.FlowExample.executor": "Run",
+    "Application.FlowLayoutExample.executor": "Run",
     "Application.Function.executor": "Run",
+    "Application.GridLayoutExample.executor": "Run",
     "Application.HashFunction.executor": "Run",
     "Application.InputPractice.executor": "Run",
     "Application.Main.executor": "Run",
@@ -112,13 +116,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Seperator">
-    <configuration name="ByteStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileHandling.ByteStream" />
+  <component name="RunManager" selected="Application.BorderLayoutWithGridExample">
+    <configuration name="BorderLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.BorderLayoutExample" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileHandling.*" />
+          <option name="PATTERN" value="LayoutManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileHandling.CharacterStream" />
+    <configuration name="BorderLayoutWithGridExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.BorderLayoutWithGridExample" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileHandling.*" />
+          <option name="PATTERN" value="LayoutManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriterReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileHandling.FileWriterReader" />
+    <configuration name="FlowLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.FlowLayoutExample" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileHandling.*" />
+          <option name="PATTERN" value="LayoutManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority.PriorityThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Priority.PriorityThreading" />
+    <configuration name="GridLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.GridLayoutExample" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Priority.*" />
+          <option name="PATTERN" value="LayoutManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VCSeperator.Seperator" />
+    <configuration name="LayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.LayoutExample" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VCSeperator.*" />
+          <option name="PATTERN" value="LayoutManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Seperator" />
-        <item itemvalue="Application.FileWriterReader" />
-        <item itemvalue="Application.CharacterStream" />
-        <item itemvalue="Application.ByteStream" />
-        <item itemvalue="Application.Priority.PriorityThreading" />
+        <item itemvalue="Application.BorderLayoutWithGridExample" />
+        <item itemvalue="Application.FlowLayoutExample" />
+        <item itemvalue="Application.BorderLayoutExample" />
+        <item itemvalue="Application.GridLayoutExample" />
+        <item itemvalue="Application.LayoutExample" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +235,7 @@
       <workItem from="1707196785036" duration="10147000" />
       <workItem from="1707221760951" duration="2767000" />
       <workItem from="1707231868195" duration="7099000" />
-      <workItem from="1707280564850" duration="2721000" />
+      <workItem from="1707280564850" duration="8996000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -481,7 +485,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707241782648</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="vowel consonants seperator">
+      <option name="closed" value="true" />
+      <created>1707284325324</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707284325324</updated>
+    </task>
+    <task id="LOCAL-00033" summary="vowel consonants separator">
+      <option name="closed" value="true" />
+      <created>1707284399138</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707284399138</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,6 +532,8 @@
     <MESSAGE value="priority threading" />
     <MESSAGE value="file handling" />
     <MESSAGE value="character stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="character stream" />
+    <MESSAGE value="vowel consonants seperator" />
+    <MESSAGE value="vowel consonants separator" />
+    <option name="LAST_COMMIT_MESSAGE" value="vowel consonants separator" />
   </component>
 </project>

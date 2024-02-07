@@ -42,9 +42,9 @@ class FileWriterReader{
         FileReader reader = new FileReader("src/FileHandling/Output.txt");
         char[] a = new char[50];
         int numChars = reader.read(a);
-        int numCharss = reader.read();
         System.out.println(numChars); //Gives total number of characters
-        System.out.println(numCharss); //Gives the current index
+        //int numCharss = reader.read();
+        //System.out.println(numCharss); //Gives the current index
         for(int i = 0;i<numChars;i++)
         {
             System.out.print(a[i]);
