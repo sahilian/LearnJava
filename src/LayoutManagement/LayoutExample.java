@@ -90,3 +90,68 @@ class BorderLayoutWithGridExample
         frame.setVisible(true);
     }
 }
+
+class UsingAwtOnly
+{
+    public static void main(String[] args) {
+        Frame frame = new Frame("AWT Frame");
+        frame.setLayout(new FlowLayout());
+        Label label = new Label("Enter your name");
+        TextField textField = new TextField(20);
+        Button button = new Button("Submit");
+        frame.add(label);
+        frame.add(textField);
+        frame.add(button);
+        frame.setSize(300,300);
+        frame.setVisible(true);
+    }
+}
+
+class MyFrame extends Frame
+{
+    Label l1;
+    TextField tf;
+    Button b;
+    MyFrame()
+    {
+        super("My Frame");
+        l1 = new Label("Enter you name");
+        tf = new TextField(20);
+        b = new Button("Submit");
+        add(l1);
+        add(tf);
+        add(b);
+    }
+}
+class TestCustomFrame
+{
+    public static void main(String[] args) {
+        MyFrame frame = new MyFrame();
+        frame.setLayout(new FlowLayout(FlowLayout.LEFT));
+        frame.setSize(300,300);
+        frame.setVisible(true);
+    }
+}
+
+class TestCustomFrame2 extends Frame
+{
+    Label l1;
+    TextField tf;
+    Button b;
+    TestCustomFrame2()
+    {
+        super("My Frame");
+        l1 = new Label("Enter you name");
+        tf = new TextField(20);
+        b = new Button("Submit");
+        add(l1);
+        add(tf);
+        add(b);
+    }
+    public static void main(String[] args) {
+        MyFrame frame = new MyFrame();
+        frame.setLayout(new FlowLayout(FlowLayout.LEFT));
+        frame.setSize(300,300);
+        frame.setVisible(true);
+    }
+}

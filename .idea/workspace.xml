@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="vowel consonants separator">
-      <change afterPath="$PROJECT_DIR$/src/LayoutManagement/LayoutExample.java" afterDir="false" />
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="Layout Example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandling/CharacterStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/CharacterStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LayoutManagement/LayoutExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutManagement/LayoutExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +89,11 @@
     "Application.ReverseEchoServerUsingSocket.executor": "Run",
     "Application.Seperator.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TestCustomFrame.executor": "Run",
+    "Application.TestCustomFrame2.executor": "Run",
     "Application.TryCatchThrow.executor": "Run",
     "Application.Unit1.executor": "Run",
+    "Application.UsingAwtOnly.executor": "Run",
     "Application.pack2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -116,20 +118,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BorderLayoutWithGridExample">
-    <configuration name="BorderLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LayoutManagement.BorderLayoutExample" />
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LayoutManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestCustomFrame2">
     <configuration name="BorderLayoutWithGridExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LayoutManagement.BorderLayoutWithGridExample" />
       <module name="LearnJava" />
@@ -156,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LayoutManagement.GridLayoutExample" />
+    <configuration name="TestCustomFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.TestCustomFrame" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
@@ -169,8 +158,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LayoutManagement.LayoutExample" />
+    <configuration name="TestCustomFrame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.TestCustomFrame2" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LayoutManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingAwtOnly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagement.UsingAwtOnly" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCustomFrame2" />
+        <item itemvalue="Application.TestCustomFrame" />
+        <item itemvalue="Application.UsingAwtOnly" />
         <item itemvalue="Application.BorderLayoutWithGridExample" />
         <item itemvalue="Application.FlowLayoutExample" />
-        <item itemvalue="Application.BorderLayoutExample" />
-        <item itemvalue="Application.GridLayoutExample" />
-        <item itemvalue="Application.LayoutExample" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +237,7 @@
       <workItem from="1707196785036" duration="10147000" />
       <workItem from="1707221760951" duration="2767000" />
       <workItem from="1707231868195" duration="7099000" />
-      <workItem from="1707280564850" duration="8996000" />
+      <workItem from="1707280564850" duration="10903000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -501,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707284399138</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Layout Example">
+      <option name="closed" value="true" />
+      <created>1707304341721</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707304341721</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,6 +544,7 @@
     <MESSAGE value="character stream" />
     <MESSAGE value="vowel consonants seperator" />
     <MESSAGE value="vowel consonants separator" />
-    <option name="LAST_COMMIT_MESSAGE" value="vowel consonants separator" />
+    <MESSAGE value="Layout Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout Example" />
   </component>
 </project>
