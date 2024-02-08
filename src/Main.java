@@ -85,3 +85,21 @@ class Dog extends Animal implements Mammal {
         husky.walk();
     }
 }
+
+class SiCalculator
+{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Principle: ");
+        String principle = scan.nextLine();
+        System.out.println("Enter Time: ");
+        String time = scan.nextLine();
+        System.out.println("Enter Rate: ");
+        String rate = scan.nextLine();
+        float p = Float.parseFloat(principle);
+        float t = Float.parseFloat(time);
+        float r = Float.parseFloat(rate);
+        float interest = (p*t*r)/100;
+        System.out.println("The interest is: "+interest);
+    }
+}
