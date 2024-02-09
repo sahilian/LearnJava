@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="Different layout methods">
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="event">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EventHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LayoutManagement/LayoutExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutManagement/LayoutExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Addition.executor": "Run",
+    "Application.AreaFinder.executor": "Run",
     "Application.ArrayException.executor": "Run",
     "Application.BorderLayoutExample.executor": "Run",
     "Application.BorderLayoutWithGridExample.executor": "Run",
@@ -128,7 +127,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Counter">
+  <component name="RunManager" selected="Application.AreaFinder">
+    <configuration name="AreaFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AreaFinder" />
+      <module name="LearnJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Counter" />
       <module name="LearnJava" />
@@ -157,20 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SiCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SiCalculator" />
-      <module name="LearnJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AreaFinder" />
         <item itemvalue="Application.Counter" />
         <item itemvalue="Application.MyDemo" />
         <item itemvalue="Application.EventHandling" />
         <item itemvalue="Application.MultiplyNumbers" />
-        <item itemvalue="Application.SiCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +220,9 @@
       <workItem from="1707360708466" duration="1367000" />
       <workItem from="1707366291253" duration="734000" />
       <workItem from="1707390829978" duration="974000" />
-      <workItem from="1707401971925" duration="3444000" />
+      <workItem from="1707401971925" duration="4124000" />
+      <workItem from="1707416540763" duration="479000" />
+      <workItem from="1707450776681" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -503,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707307563672</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="event">
+      <option name="closed" value="true" />
+      <created>1707412209028</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707412209028</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,6 +547,7 @@
     <MESSAGE value="vowel consonants separator" />
     <MESSAGE value="Layout Example" />
     <MESSAGE value="Different layout methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Different layout methods" />
+    <MESSAGE value="event" />
+    <option name="LAST_COMMIT_MESSAGE" value="event" />
   </component>
 </project>

@@ -103,3 +103,25 @@ class SiCalculator
         System.out.println("The interest is: "+interest);
     }
 }
+
+class Rectangle
+{
+    int length;
+    int breadth;
+    Rectangle(int length, int breadth)
+    {
+        this.length = length;
+        this.breadth = breadth;
+    }
+    public int Area()
+    {
+        return length * breadth;
+    }
+}
+
+class AreaFinder{
+    public static void main(String[] args) {
+        Rectangle rect = new Rectangle(5,6);
+        System.out.println("The area of rectangle is :"+rect.Area());
+    }
+}
