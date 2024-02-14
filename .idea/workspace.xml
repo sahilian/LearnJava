@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="event">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="325f4947-b7e7-4d73-ad4b-1dd40835a6ec" name="Changes" comment="oop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,76 +49,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Addition.executor": "Run",
-    "Application.AreaFinder.executor": "Run",
-    "Application.ArrayException.executor": "Run",
-    "Application.BorderLayoutExample.executor": "Run",
-    "Application.BorderLayoutWithGridExample.executor": "Run",
-    "Application.ByteStream.executor": "Run",
-    "Application.CharacterStream.executor": "Run",
-    "Application.ChatClient.executor": "Run",
-    "Application.ChatServer.executor": "Run",
-    "Application.ChatServer2.executor": "Run",
-    "Application.Chatter.executor": "Run",
-    "Application.Client (1).executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.Counter.executor": "Run",
-    "Application.Dog.executor": "Run",
-    "Application.EventHandling.executor": "Run",
-    "Application.ExceptionHandling.executor": "Run",
-    "Application.FileWriterReader.executor": "Run",
-    "Application.FlowExample.executor": "Run",
-    "Application.FlowLayoutExample.executor": "Run",
-    "Application.Function.executor": "Run",
-    "Application.GridLayoutExample.executor": "Run",
-    "Application.HashFunction.executor": "Run",
-    "Application.InputPractice.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MenuDemo.executor": "Run",
-    "Application.MultiThreading.executor": "Run",
-    "Application.MultiThreadingUsingRunnable.executor": "Run",
-    "Application.MultiThreadingUsingThread.executor": "Run",
-    "Application.MultiplyNumbers.executor": "Run",
-    "Application.MyDemo.executor": "Run",
-    "Application.MyExceptionTester.executor": "Run",
-    "Application.NoLayout.executor": "Run",
-    "Application.NoLayoutDemo.executor": "Run",
-    "Application.NoLayoutDemoUsingSwing.executor": "Run",
-    "Application.PanelDemo.executor": "Run",
-    "Application.Priority.PriorityThreading.executor": "Run",
-    "Application.PriorityThreading.executor": "Run",
-    "Application.ReverseEcho (1).executor": "Run",
-    "Application.ReverseEcho.executor": "Run",
-    "Application.ReverseEchoServerUsingSocket.executor": "Run",
-    "Application.Seperator.executor": "Run",
-    "Application.SiCalculator.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestCustomFrame.executor": "Run",
-    "Application.TestCustomFrame2.executor": "Run",
-    "Application.TryCatchThrow.executor": "Run",
-    "Application.Unit1.executor": "Run",
-    "Application.UsingAwtOnly.executor": "Run",
-    "Application.pack2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/termi/IdeaProjects/LearnJava/src/Main.java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Addition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AreaFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BorderLayoutExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BorderLayoutWithGridExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ByteStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chatter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Counter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EventHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileWriterReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlowExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlowLayoutExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Function.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GridLayoutExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InputPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreadingUsingRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreadingUsingThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplyNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyExceptionTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoLayout.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoLayoutDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoLayoutDemoUsingSwing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PanelDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Priority.PriorityThreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityThreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseEcho (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseEcho.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseEchoServerUsingSocket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Seperator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SiCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCustomFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCustomFrame2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryCatchThrow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unit1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingAwtOnly.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pack2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/termi/IdeaProjects/LearnJava/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -223,6 +220,7 @@
       <workItem from="1707401971925" duration="4124000" />
       <workItem from="1707416540763" duration="479000" />
       <workItem from="1707450776681" duration="282000" />
+      <workItem from="1707496183564" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -512,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707412209028</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="oop">
+      <option name="closed" value="true" />
+      <created>1707496205325</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1707496205325</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,6 +554,7 @@
     <MESSAGE value="Layout Example" />
     <MESSAGE value="Different layout methods" />
     <MESSAGE value="event" />
-    <option name="LAST_COMMIT_MESSAGE" value="event" />
+    <MESSAGE value="oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop" />
   </component>
 </project>
