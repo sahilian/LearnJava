@@ -225,6 +225,7 @@
       <workItem from="1708439306134" duration="108000" />
       <workItem from="1709138095076" duration="58000" />
       <workItem from="1709228989518" duration="30000" />
+      <workItem from="1709310603192" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading">
       <option name="closed" value="true" />
@@ -546,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709228999762</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="oop">
+      <option name="closed" value="true" />
+      <created>1709310632088</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1709310632088</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
